@@ -1,8 +1,7 @@
 #pragma once
 #include"List.h"
 #include"Vector.h"
-//模板的模板参数
-//template<class T,template<class> class container>
+
 template<class T,class container>
 class Stack {
 public:
