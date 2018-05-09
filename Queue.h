@@ -6,7 +6,7 @@ template<class T,class Container>
 class Queue {
 public:
 	void Push(const T& data)
-	{
+	{   
 		con.PushBack(data);
 	}
 	void Pop()
